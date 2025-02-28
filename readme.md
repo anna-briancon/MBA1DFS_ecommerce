@@ -16,3 +16,7 @@
 * Ajouter un produit au panier.
 * Voir le total du panier.
 * Supprimer un produit du panier.
+
+## Pour executer les tests unitaires
+* Installer PHP Unit `php composer.phar require --dev symfony/test-pack`
+* Pour lancer les tests que vous aurez créés: `php bin/phpunit`
