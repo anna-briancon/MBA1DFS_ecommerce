@@ -5,10 +5,8 @@
 * Configurer la connexion vers la base de données: `DATABASE_URL="mysql://root:@127.0.0.1:3306/ecommerce"`
 * Créer la base de données: `php bin/console doctrine:database:create`
 * Mettre à jour le schéma DB: `php bin/console doctrine:migrations:migrate`
-* Insérer trois produits tests en DB: `INSERT INTO produit (nom, prix) VALUES
-  ('T-Shirt Dev', 19.99),
-  ('Casquette PHP', 14.99),
-  ('Mug Codeur', 9.99);`
+* Load les fixtures en DB: `php bin/console doctrine:fixtures:load
+  `
 * Démarrer le serveur `symfony:server:start`
 * Accéder à `http://localhost:8000/`
 
